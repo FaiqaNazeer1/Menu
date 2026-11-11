@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383837"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="45dp"
+        android:text="Country Details"
+        android:textColor="#0B5DBF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="127dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Received via:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:text="Country Name:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:text="Capital:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:text="National Language:"
+        android:textSize="20sp" />
+
+</LinearLayout>

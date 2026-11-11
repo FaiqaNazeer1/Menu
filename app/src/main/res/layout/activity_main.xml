@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50504C"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnPopup"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:layout_margin="4dp"
+        android:text="Popup Menu"
+        android:textColorLink="#112ABA" />
+
+    <Button
+        android:id="@+id/btnFloating"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="Floating Menu"
+        android:layout_margin="4dp"
+        android:textColorLink="#304EF2" />
+
+    <Button
+        android:id="@+id/btnContext"
+        android:layout_width="145dp"
+        android:layout_margin="4dp"
+        android:layout_height="wrap_content"
+        android:text="Context Menu"
+        android:textColorLink="#3250F8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="Data Transfer Application"
+        android:textAlignment="center"
+        android:textColor="#E9EBED"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter Country Information"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Country Name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Capital"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter National Language"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSerializable"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#20920B"
+        android:text="Send Using Serializable" />
+
+    <Button
+        android:id="@+id/btnParcelable"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#2F8E0F"
+        android:text="Send Using Parcelable" />
+
+</LinearLayout>
